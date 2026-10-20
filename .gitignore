@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Сборка C++ (bin\prompt.exe собирается командой cpp\build.bat)
+cpp/bin/
+cpp/obj/
+*.pdb
+
+# Веса нейросетей и выученные фразы — у каждого игрока свои
+cpp/models/
+
+# Логи
+*.log
